@@ -1,0 +1,1 @@
+Download the [Fundus](https://github.com/emma-sjwang/Dofe) dataset and put all `ROIs/image` and `ROIs/mask` into corresponding directory.
