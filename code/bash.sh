@@ -1,0 +1,4 @@
+python -W ignore train.py --data_root ../dataset --dataset fundus --domain_idxs 1,2,3 --test_domain_idx 0 --ram --rec --is_out_domain --consistency --consistency_type kd --save_path ../outdir/fundus/target0 --gpu 0
+python -W ignore train.py --data_root ../dataset --dataset fundus --domain_idxs 0,2,3 --test_domain_idx 1 --ram --rec --is_out_domain --consistency --consistency_type kd --save_path ../outdir/fundus/target1 --gpu 0
+python -W ignore train.py --data_root ../dataset --dataset fundus --domain_idxs 0,1,3 --test_domain_idx 2 --ram --rec --is_out_domain --consistency --consistency_type kd --save_path ../outdir/fundus/target2 --gpu 0
+python -W ignore train.py --data_root ../dataset --dataset fundus --domain_idxs 0,1,2 --test_domain_idx 3 --ram --rec --is_out_domain --consistency --consistency_type kd --save_path ../outdir/fundus/target3 --gpu 0
